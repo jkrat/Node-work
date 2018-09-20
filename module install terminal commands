@@ -1,0 +1,47 @@
+terminal commands to install modules:
+
+npm init
+katiegrsmacbook:bowerManger Katiegrace$ npm init
+This utility will walk you through creating a package.json file.
+It only covers the most common items, and tries to guess sensible defaults.
+
+See `npm help json` for definitive documentation on these fields
+and exactly what they do.
+
+Use `npm install <pkg>` afterwards to install a package and
+save it as a dependency in the package.json file.
+
+Press ^C at any time to quit.
+package name: (bowermanger) 
+version: (1.0.0) 
+description: npm in bower
+entry point: (index.js) 
+test command: 
+git repository: 
+keywords: 
+author: jim
+license: (ISC) 
+About to write to /Users/Katiegrace/Source/CD/meanactivities/node/bowerManger/package.json:
+
+{
+  "name": "bowermanger",
+  "version": "1.0.0",
+  "description": "npm in bower",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "jim",
+  "license": "ISC"
+}
+
+
+Is this ok? (yes) 
+katiegrsmacbook:bowerManger Katiegrace$ ls
+bower_components	package.json
+katiegrsmacbook:bowerManger Katiegrace$ npm install jquery --save
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN bowermanger@1.0.0 No repository field.
+
++ jquery@3.3.1
+added 1 package in 1.033s
